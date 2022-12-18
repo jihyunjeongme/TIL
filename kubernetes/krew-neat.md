@@ -3,7 +3,7 @@
 
 ## Prerequisite
 - The `krew` is installed.
-
+   - https://github.com/jihyunjeongme/TIL/blob/main/kubernetes/krew.md
 
 ### System environment
 - Kubernetes veson: `Client Version: version.Info{Major:"1", Minor:"20", GitVersion:"v1.20.1", GitCommit:"c4d752765b3bbac2237bf87cf0b1c2e307844666", GitTreeState:"clean", BuildDate:"2020-12-18T12:09:25Z", GoVersion:"go1.15.5", Compiler:"gc", Platform:"linux/amd64"}`
