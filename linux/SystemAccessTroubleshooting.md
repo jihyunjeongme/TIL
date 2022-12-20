@@ -200,7 +200,7 @@ ubuntu    267052  265754  0 10:52 pts/2    00:00:00 grep --color=auto ssh
 ### Connetion refused 
 - Check `Firewall`
   - CentOS: `systemctl status firewalld`
-  - <img src="https://phoenixnap.com/kb/wp-content/uploads/2021/04/active-firewalld-centos7.png">
+  <img src="https://phoenixnap.com/kb/wp-content/uploads/2021/04/active-firewalld-centos7.png">
   
   - Ubuntu: `sudo ufw status verbose`
   <img src="https://storage.googleapis.com/static.configserverfirewall.com/images/ufw/status/ufw-status-verbose.png">
