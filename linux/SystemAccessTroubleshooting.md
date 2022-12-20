@@ -175,7 +175,7 @@ rtt min/avg/max/mdev = 32.348/32.373/32.392/0.018 ms
 - If NOT pingable = go back to "Server Not Reachable"
 
 2. If pingable = Connect to server 
-- # telnet 142.251.42.196 80
+- telnet 142.251.42.196 80
 - If telnet command not found `install telnet`.
 
 ```bash
@@ -201,8 +201,10 @@ ubuntu    267052  265754  0 10:52 pts/2    00:00:00 grep --color=auto ssh
 - Check `Firewall`
   - CentOS: `systemctl status firewalld`
   - <img src="https://phoenixnap.com/kb/wp-content/uploads/2021/04/active-firewalld-centos7.png">
+  
   - Ubuntu: `sudo ufw status verbose`
-  - <img src="https://storage.googleapis.com/static.configserverfirewall.com/images/ufw/status/ufw-status-verbose.png">
+  <img src="https://storage.googleapis.com/static.configserverfirewall.com/images/ufw/status/ufw-status-verbose.png">
     - `sudo ufw status numbered`
+  
     - `sudo ufw status | grep -i deny`
-    - <img src="https://storage.googleapis.com/static.configserverfirewall.com/images/ufw/status/statust-deny.png">
+  <img src="https://storage.googleapis.com/static.configserverfirewall.com/images/ufw/status/statust-deny.png">
