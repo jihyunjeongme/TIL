@@ -204,6 +204,7 @@ ubuntu    267052  265754  0 10:52 pts/2    00:00:00 grep --color=auto ssh
   
   - Ubuntu: `sudo ufw status verbose`
   <img src="https://storage.googleapis.com/static.configserverfirewall.com/images/ufw/status/ufw-status-verbose.png">
+  
   - `sudo ufw status numbered`
   
   - `sudo ufw status | grep -i deny`
