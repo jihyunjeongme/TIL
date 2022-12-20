@@ -8,6 +8,7 @@
 ### Python   <img align="center" alt="python" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 
 ### Linux   <img align="center" alt="linux" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg">
+* [System Access Troubleshooting](linux/SystemAccessTroubleshooting.md)
 ---
 ## Everything Data
 ### Data warehouse
@@ -29,9 +30,17 @@
  
 #### Kubernetes <img align="center" alt="kubernetes" height="20" width="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg">
 
+* [krew](kubernetes/krew.md)
 * [krew-neat](kubernetes/krew-neat.md)
+ 
 
 
+---
+## Server 
+### Web server
+#### NGINX   <img align="center" alt="python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg">
+
+* [nginx](server/web_server/nginx.md)
 
 <!--  
 <div style="display: inline_block"><br>
