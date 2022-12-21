@@ -6,9 +6,13 @@
 ### DBMS and SQL
 
 ### Python   <img align="center" alt="python" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+* [numpy](python/numpy.ipynb)
+* [pandas](python/pandas.ipynb)
+* [finance_datareader](python/finance_datareader.ipynb)
 
 ### Linux   <img align="center" alt="linux" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg">
 * [System Access Troubleshooting](linux/SystemAccessTroubleshooting.md)
+* [FileSystem Troubleshooting](linux/FileSystem%20Troubleshooting.md)
 ---
 ## Everything Data
 ### Data warehouse
