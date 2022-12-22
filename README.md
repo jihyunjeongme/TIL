@@ -12,7 +12,7 @@
 
 ### Linux   <img align="center" alt="linux" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg">
 * [System Access Troubleshooting](linux/SystemAccessTroubleshooting.md)
-* [FileSystem Troubleshooting](linux/FileSystem%20Troubleshooting.md)
+* [Key folders and commands](linux/Key%20folders%20and%20commands.md)
 ---
 ## Everything Data
 ### Data warehouse
