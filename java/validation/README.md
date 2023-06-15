@@ -1,10 +1,5 @@
 # Java Validation Example
-
----
-
 ## Guideline
-
-----
 ### YearMonth
 Run the following request POST API to test
 
