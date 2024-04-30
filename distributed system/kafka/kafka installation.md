@@ -20,7 +20,7 @@
 #### Kafka server - Single node
 - `vi $KAFKA_HOME/config/kraft/server.properties`
 
-```json
+```
 ############################# Server Basics #############################
 
 # The role of this server. Setting this puts us in KRaft mode
