@@ -65,7 +65,7 @@ advertised.listeners=PLAINTEXT://34.140.xx.xx:9092
 
 ### Kafka start
 - `$KAFKA_HOME/bin/kafka-server-start.sh -daemon $KAFKA_HOME/config/kraft/server.properties`
-- ps -ef | grep kafka
+- `ps -ef | grep kafka`
   - ```
     jihyun.+   466  6937  0 12:06 pts/0    00:00:00 vi /home/jihyun.jeong/kafka_2.12-3.5.2/config/kraft/server.properties
     jihyun.+  1353   589  0 12:22 pts/1    00:00:00 grep --color=auto kafka
