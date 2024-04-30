@@ -20,6 +20,7 @@
 ---
 ## Distributed Systems
 ### Spark
+### Kafka
 ---
 ## Cloud
 
