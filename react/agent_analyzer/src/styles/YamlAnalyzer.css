@@ -1,0 +1,71 @@
+.yaml-analyzer {
+  text-align: center;
+}
+
+.filters-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start; /* 왼쪽 정렬 */
+  margin: 16px 0;
+}
+
+.select-container {
+  margin: 8px;
+}
+
+.button-container {
+  margin: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table-header {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.table-cell {
+  white-space: normal; /* 줄바꿈을 허용하도록 설정 */
+  word-break: break-word; /* 긴 단어를 줄바꿈 */
+  position: relative;
+}
+
+.table-cell:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.table {
+  min-width: 800px;
+}
+
+.resizable {
+  display: flex;
+  align-items: center;
+}
+
+.resizer {
+  cursor: col-resize;
+  width: 10px;
+  background-color: #ddd;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.resizer:hover {
+  background-color: #aaa;
+}
+
+.resizer:active {
+  background-color: #888;
+}

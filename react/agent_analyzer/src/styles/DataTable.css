@@ -1,0 +1,46 @@
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table-header {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.table-cell {
+  white-space: nowrap;
+  position: relative;
+}
+
+.table-cell:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.table {
+  min-width: 800px;
+}
+
+.resizable {
+  display: flex;
+  align-items: center;
+}
+
+.resizer {
+  cursor: col-resize;
+  width: 10px;
+  background-color: #ddd;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.resizer:hover {
+  background-color: #aaa;
+}
+
+.resizer:active {
+  background-color: #888;
+}

@@ -1,0 +1,134 @@
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navigation {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  background-color: #111;
+}
+
+.navigation .active {
+  background-color: #4caf50;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.select-container {
+  width: 200px;
+  margin: 0 8px;
+}
+
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table-header {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.table-cell {
+  white-space: nowrap;
+  position: relative;
+}
+
+.table-cell:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.table {
+  min-width: 800px;
+}
+
+.resizable {
+  display: flex;
+  align-items: center;
+}
+
+.resizer {
+  cursor: col-resize;
+  width: 10px;
+  background-color: #ddd;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.resizer:hover {
+  background-color: #aaa;
+}
+
+.resizer:active {
+  background-color: #888;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  margin: 0 5px;
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.pagination a.active {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
+
+.pagination a.disabled {
+  color: #ddd;
+  cursor: not-allowed;
+}
